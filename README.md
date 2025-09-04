@@ -1,7 +1,7 @@
 
 # Context-Aware LLM Chatbot — ChatChain
 
-ChatChain is a lightweight, modular chatbot framework built on Large Language Models (LLMs) that preserves conversational context. It uses a dynamic prompt-chaining mechanism to summarize and feed prior dialogue into each new request, enabling coherent and memory-rich interactions.
+ChatChain is a lightweight built on Large Language Models (LLMs) that preserves conversational context. It uses a dynamic prompt-chaining mechanism to summarize and feed prior chats into each new request, enabling memory preserving interactions.
 
 How It Works
 - User Input → New message from user
@@ -10,4 +10,4 @@ How It Works
 - LLM Response → Generates reply based on full context
 
 
-## Final code will be updated on this repo in the next few days ahead
+## Final code will be updated on this repo in the next few days
