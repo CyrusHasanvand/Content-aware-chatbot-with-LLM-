@@ -27,7 +27,21 @@ prompt=ChatPromptTemplate.from_messages([
 ```
 where I have indicated the variable ```chat_history``` as a varible to save and load the previous messages.
 
+I set the following consideration toward my local llama 3.1 as:
+```python
+LLM_03 = ChatOllama(model="llama3.1", Temperature=0.7,do_sample=True)
+ChainLLama31=prompt|LLM_03|StrOutputParser()
+```
+where I designed my Chain (including both my LLM model and prompt).
 
+# Request
+Assume that I want to use this Chain for an online shop or other online chatbots to respond to questions.
+At the first step, I should define my ```chat_history``` varible to save the information. Therefore
+```python
+chat_history=[]
+```
+So, assume that the user writes the following sentence to the model:
+```'I am an AI specialist who is expert in online knowledge augmentation from nonstationary Data Streams'```
 
 
 
