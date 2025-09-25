@@ -81,7 +81,7 @@ you're an expert in developing AI models that can adapt and learn from changing 
 time, making it possible to continuously update and improve knowledge based on new information.
 ```
 
-Consequently, we can use the old chats to respond the question or analyze the previous data. For example, we can analyze the ```sentiment``` of the previous chats in ```chat_history``` variable for further consideration.
+Consequently, we can use the old chats to respond the question or analyze the previous data, evaluating user interaction with their needs to enhance our productivity. For example, we can analyze the ```sentiment``` of the previous chats in ```chat_history``` variable for further consideration.
 
 
 
